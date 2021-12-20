@@ -31,7 +31,7 @@ $config['default'] = array
 	(
 		'type'     => 'mysql',
 		'user'     => 'cmdb',
-		'pass'     => 'cmdb',
+		'pass'     => 'something',
 		'host'     => '127.0.0.1',
 		'port'     => 3306,
 		'socket'   => FALSE,
