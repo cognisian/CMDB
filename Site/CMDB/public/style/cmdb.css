@@ -1,0 +1,627 @@
+/* TEXT
+-----------------------------------------------------------------------------*/
+h1 {
+	font-size: 140%;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-size: 120%;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin: 5px;
+}
+
+/* DEVICE
+-----------------------------------------------------------------------------*/
+#device-edit {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 20px 0px;
+}
+
+#device-list {
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.device {
+	float: left;
+	width: 100%;
+	border: 2px solid black;
+}
+
+/* HANDLE Style
+--------------------- */
+.main-handle,
+.handle {
+	float: left;
+	width: 98%;
+	color: white;
+	background-color: #666666;
+	font-weight: bolder;
+	padding: 5px 0px;
+	margin: 5px 1% 0px;
+}
+
+.main-handle {
+	background-color: #454545;
+}
+
+.props .handle {
+	background-color: #CCCCCC;
+}
+
+#device-list .handle {
+	margin: 5px 1%;
+}
+
+.main-handle-title,
+.handle-title {
+	float: left;
+	width: 80%;
+	padding-left: 10px;
+}
+
+.main-handle-icons,
+.handle-icons,
+.handle-function {
+	cursor: pointer;
+	float: right;
+}
+
+/* Override */
+.main-handle {
+	font-size: 140%;
+}
+.main-handle-title {
+	text-align: center;
+}
+.handle-function {
+	color: white;
+}
+.handle-function a {
+	color: white;
+	padding-right: 5px;
+}
+
+/* DEVICE Style
+--------------------- */
+.device-details {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.device-details-props {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.sub-prop,
+.props {
+	float: left;
+	width: 98%;
+	margin: 5px 1% 0px;
+}
+
+.sub-prop h2 {
+	float: left;
+	width: 100%;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.props-row {
+	float: left;
+	width: 100%;
+	padding: 5px 0px;
+	border-bottom: 1px solid gray;
+}
+
+.last-row {
+	border-bottom: 0px;
+}
+
+.prop-col {
+	float: left;
+	width: 50%;
+}
+
+.prop-col.full {
+	width: 80%;
+}
+
+.prop-col.first {
+	width: 30%;
+}
+
+#network-dep-detail .prop-col,
+#service-props-detail .prop-col,
+#service-deps-detail .prop-col {
+	width: 30%;
+}
+
+#network-dep-detail .prop-col .prop-col,
+#service-deps-detail .prop-col .prop-col {
+	width: 100%;
+}
+
+.prop-op {
+	float: left;
+	width: 10%;
+	margin-top: 5%;
+}
+
+.prop-op .button {
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+/* Service Dependency Table
+------------------------------------- */
+.defined-deps {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.defined-deps td {
+	width: 50%;
+}
+
+.defined-deps th {
+	text-align: center;
+	background-color: #FFFFE0;
+}
+
+.defined-deps thead th {
+	border: 1px solid black;
+	background-color: #C7C7C7;
+}
+
+.defined-deps td {
+	border: 1px solid gray;
+}
+
+.defined-deps td.local {
+	text-align: right;
+	padding-right: 30px;
+}
+.defined-deps td.remote {
+	text-align: left;
+	padding-left: 30px;
+}
+
+/* FORMS
+-----------------------------------------------------------------------------*/
+form {
+	width: 100%;
+	padding: 5px 0px;
+	text-align: center; /* center for IE */
+}
+
+/* center for mozilla */
+html>body form {
+	text-align: left;
+	margin: 0px auto;
+}
+
+.props form {
+	float: left;
+}
+
+form#login,
+form#change_password {
+	float: left;
+	width: 500px;
+	text-align: center;
+}
+
+html > body form#login,
+form#change_password {
+	text-align: left;
+	margin: 0px auto;
+}
+
+fieldset {
+	display: block;
+	width: 100%;
+	line-height: 1.5em;
+	padding: 0.5em;
+	border: 1px solid black;
+	margin: 1.5em 0px 0.5em 0px;
+}
+
+form .form-row {
+	clear: both;
+	float: none;
+	width: 100%;
+	margin: 0.6em 0px 1.2em 0px;
+}
+
+legend {
+	color: #333333;
+	font-weight: bold;
+	padding: 0.3em;
+	border: 2px solid gray;
+	margin-bottom: 0.5em;
+}
+
+form label {
+	float: left;
+	display: block;
+	width: 40%;
+	color: #666666;
+	text-align: right;
+	padding-right: 1.0em;
+}
+
+.prop-col .props-row label {
+	width: 100%;
+	text-align: center;
+}
+
+form input,
+form select,
+form textarea {
+	float: left;
+	width: 55%;
+	max-width: 55%;
+	padding: 0px 0.5em;
+	border: 1px solid gray;
+	margin-bottom: 0.5em;
+}
+
+form select {
+	padding: 0px 0px;
+}
+
+form textarea,
+form select#local-services,
+form select#list-local-services,
+form select#list-local-def-services,
+form select#list-remote-def-services,
+form select#list-local-interfaces,
+form select#list-remote-def-interfaces,
+form select#remote-interfaces-deps,
+form select#remote-services-deps,
+
+/*
+form select#parent-devices {
+	min-width: 250px;
+	width: auto;
+	margin-left: 15px;
+}*/
+
+
+form select#list-local-services option,
+form select#local-services option {
+	width: 250px;
+}
+
+form select#parent-devices {
+	max-width: none;
+	width: 100%;
+}
+
+#search-device-addr input {
+	width: auto;
+}
+
+#service-props-detail select {
+	width: 40%;
+}
+
+form input {
+	width: 50%;
+}
+
+/** Do Not Highlight in yellow submit buttons */
+form input[type="submit"] {
+	width: auto;
+	max-width: auto;
+}
+
+
+form textarea.input {
+	height: 6.0em;
+}
+
+form textarea.collection {
+	height: 12.0em;
+}
+
+form input.checkbox {
+	width: auto;
+}
+
+form input.enabled,
+form select.enabled {
+	background-color: #FFFFCC;
+}
+
+form .desc {
+	clear: both;
+	float: none;
+	margin-bottom: 0.5em;
+}
+
+form .desc p,
+form .desc dl {
+	color: #999999;
+	padding: 0.5em;
+}
+
+form .desc dt {
+	color: #666666;
+}
+
+form .desc dd {
+	color: #999999;
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/* submit button */
+form .submit {
+	text-align: center;
+	padding: 0em 0.5em;
+	border: 1px solid gray;
+	margin: 0.5em auto;
+}
+
+form .login-error {
+	color: red;
+}
+
+/*INPUT
+-----------------------------------------------------------------------------*/
+#search-device {
+	width: 60%;
+	padding: 20px 5px;
+	border: 1px solid black;
+	margin: 30px auto;
+}
+
+/*
+#add-device {
+	float: left;
+	width: 60%;
+	padding: 20px 5px;
+	border: 1px solid black;
+	margin: 30px auto;
+}
+*/
+
+/* AUTOCOMPLETER
+--------------------------------------- */
+.autocompleter {
+	position: relative;
+	float: left;
+	width: 50%;
+	border: 1px solid gray;
+	margin-bottom: 0.5em;
+}
+
+#autocomplete-device-serv-dep,
+#autocomplete-device-intf-dep,
+#autocomplete-parent-device {
+	width: 75%;
+	margin-left: 15px;
+}
+
+#autocompleter-list-wrapper {
+	position: absolute;
+	/*float: left;*/
+	width: 100%;
+	height: 1%;
+}
+
+.autocompleter input {
+	width: 100%; /* needed to override from form defs */
+	max-width: 100%; /* needed to override from form defs */
+}
+
+.autocompleter-list,
+.autocompleter-text {
+	width: 100%;
+}
+
+.autocompleter-text {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.autocompleter-list {
+	height: 200px;
+	color: #666;
+	background-color: white;
+	border: 1px solid black;
+	overflow: auto;
+	z-index: 999;
+}
+
+.autocompleter-list  li {
+	cursor: pointer;
+}
+.autocompleter-list  li:hover {
+	color: white;
+	background-color: #454545;
+}
+
+#indicator {
+	float: left;
+	margin-left: 15px;
+}
+
+
+/* -------------------------------------------------
+--------- Defaults ---------
+------------------------------------------------- */
+
+div.content-row {
+	/*clear: both; Commenting this out because the clearing affects the floating spans within the content-row div in the review pages */
+	clear: both;
+	margin-top: 0.5em;
+	height: 2.1em;
+}
+
+
+select.med {
+	width: 10em;
+}
+select.wide {
+	width: 17.5em;
+}
+select.x-wide {
+	width: 22em;
+}
+input.wide{
+	width: 16.3em;
+
+}
+input.submit.med{
+	width: 14.5em;
+}
+input.submit.wide{
+	width: 16em;
+}
+
+
+/* -------------------------------------------------
+--------- Misc page specific defintions ---------
+------------------------------------------------- */
+
+
+body#device_addr div#frame div#content div#left-content div.page-message {text-align:left;height:70px;margin-top: 10px;margin-left:185px;}
+
+
+
+/*----------------------------------------------------
+--------Changes for device_edit page specific---------
+-----------------------------------------------------*/
+
+body#edit-device div#frame div#content {height: 100%; }
+html > body#edit-device div#frame div#content {height: 100%;}
+
+body#edit-device #device-edit{margin: 20px 5px;}
+body#edit-device .props {float: left;width: 98%;margin: 5px 1% 0px;}
+body#edit-device div.button-row {clear: both;margin-top: 1em;padding-top: 5px;height: 2.1em;vertical-align: bottom;}
+
+body#edit-device .props-row {float: left;width: 100%;padding: 5px 0px;border-bottom: 1px solid gray;height: 2.1em;}
+body#edit-device div.props-row span.left {float: left;width: 45%;text-align: right;line-height: 2em;height: 2em;vertical-align: center;}
+body#edit-device div.props-row span.right {float: right;width: 54%;text-align: left;line-height: 2em;height: 2em;vertical-align: top;}
+
+body#edit-device .props-row-double {float: left;width: 100%;margin-top:5px;padding-top: 5px;border-bottom: 1px solid gray;height:4.1em;}
+body#edit-device div.props-row-double span.left {float: left;width: 45%;text-align: right;line-height: 2em;height: 2em;vertical-align: top;}
+body#edit-device div.props-row-double span.right {float: right;width: 54%;text-align: left;line-height: 2em;height: 2em;vertical-align: top;}
+
+
+body#edit-device .props-row-triple {float: left;width: 100%;margin-top:5px;padding-top: 5px;border-bottom: 1px solid gray;height:6.1em;}
+body#edit-device div.props-row-triple span.left {float: left;width: 45%;text-align: right;line-height: 2em;height: 2em;vertical-align: top;}
+body#edit-device div.props-row-triple span.right {float: right;width: 54%;text-align: left;line-height: 2em;height: 2em;vertical-align: top;}
+
+
+
+body#edit-device div.multicontent-row-serv-pro {clear: both; margin-top: 0.5em; width: 100%;height: 14.1em;}
+body#edit-device div.multi-select-serv-pro {width:auto;float:left;padding-left: 15px;}
+body#edit-device div.mid-col-serv-pro { width:auto; padding-left:10px; padding-right:10px;padding-top:90px;float: left;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-serv-pro select{max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-serv-pro div.multi-select-serv-pro select.local-services{width: 260px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-serv-pro div.multi-select-serv-pro select.list-local-services{width: 260px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-serv-pro div.multi-select-serv-pro select.list-local-services option{width: 260px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-serv-pro div.multi-select-serv-pro label.multi-label-serv-pro{width: auto; }
+body#edit-device div.device-details-props div.props form div.multicontent-row-serv-pro div.mid-col-serv-pro .button {	width: 90px; cursor: pointer; text-align: center; border: 1px solid black;margin: 10px;}
+
+
+
+body#edit-device div.multicontent-row-dev-dep {clear: both; margin-top: 0.5em; width: 100%;height: 6em;}
+body#edit-device div.multi-select-dev-dep {width:auto;float:left;padding-left: 15px;}
+body#edit-device div.mid-col-dev-dep { width:auto; padding-left:10px; padding-right:10px;padding-top:30px;float: left;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep select {max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep input {max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div {max-width: auto;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.multi-select-dev-dep div.autocomplete-parent-device {width: 260px;margin-left:0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.multi-select-dev-dep div.autocomplete-parent-device input.parent-device-name{width:260px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.multi-select-dev-dep div.autocomplete-parent-device div.autocompleter-parent-device-wrapper{width:260px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.multi-select-dev-dep div.autocomplete-parent-device div.autocompleter-parent-device-wrapper div.parent-device-suggestions{width:260px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.indicator1{width: 260px;margin-left:0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.multi-select-dev-dep select.parent-devices{width: 440px; margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.multi-select-dev-dep label.multi-label-dev-dep{width: auto;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-dev-dep div.mid-col-dev-dep .button {	width: 90px; cursor: pointer; text-align: center; border: 1px solid black;margin: 10px;}
+
+
+
+
+
+
+body#edit-device div.multicontent-row-net-dep {clear: both; margin-top: 0.5em; width: 100%;height: 14.1em;}
+body#edit-device div.multi-select-net-dep {width:auto;float:left;padding-left: 15px;}
+body#edit-device div.mid-col-net-dep { width:auto; padding-left:10px; padding-right:10px;padding-top:120px;float: left;}
+body#edit-device div.device-details-props div.props form div.table-row-net-dep{max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep select {max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep input {max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div {max-width: auto;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep label.multi-label-net-dep{width: auto;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep select#list-local-interfaces{width: 180px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep div.autocomplete-device-intf-dep{width: 180px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep div.autocomplete-device-intf-dep input.intf-dep-device-name{width: 160px; magin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep div.autocomplete-device-intf-dep div.autocompleter-device-intf-list-wrapper{width: 160px; magin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep div.autocomplete-device-intf-dep div.autocompleter-device-intf-list-wrapper div.device-interface-suggestions{width: 160px; magin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep select.list-remote-def-interfaces{width: 280px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.multi-select-net-dep select.remote-interfaces-deps{width: 280px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.mid-col-net-dep .button {	width: 90px; cursor: pointer; text-align: center; border: 1px solid black;margin: 10px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-net-dep div.indicator2{width: 16px;margin-left:0px;}
+
+
+
+
+
+body#edit-device div.multicontent-row-ser-dep {clear: both; margin-top: 0.5em; width: 100%;height: 14.1em;}
+body#edit-device div.multi-select-ser-dep {width:auto;float:left;padding-left: 15px;}
+body#edit-device div.mid-col-ser-dep { width:auto; padding-left:10px; padding-right:10px;padding-top:120px;float: left;}
+
+body#edit-device div.device-details-props div.props form div.table-row-ser-dep{max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep select {max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep input {max-width: 100%;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div {max-width: auto;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep label.multi-label-ser-dep{width: auto;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep select.list-local-def-services{width: 180px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep div.autocomplete-device-serv-dep{width: 180px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep div.autocomplete-device-serv-dep input.serv-dep-device-name{width: 160px; magin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep div.autocomplete-device-serv-dep div.autocompleter-device-serv-list-wrapper{width: 160px; magin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep div.autocomplete-device-serv-dep div.autocompleter-device-serv-list-wrapper div.device-service-suggestions{width: 160px; magin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep select.list-remote-def-services{width: 280px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.multi-select-ser-dep select.remote-services-deps{width: 280px;margin-left: 0px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.mid-col-ser-dep .button {	width: 90px; cursor: pointer; text-align: center; border: 1px solid black;margin: 10px;}
+body#edit-device div.device-details-props div.props form div.multicontent-row-ser-dep div.indicator3{width: 16px;margin-left:0px;}
+
+
+
+body#edit-device div.device-details-props div.props form .props-row-comment {border-bottom:1px solid gray; float:left; padding:5px 0; width:100%;height: auto;}
+body#edit-device div.device-details-props div.props form .props-row-comment div.comment-container {float: left; width: 98%; margin:5px 1% 0px;}
+body#edit-device div.device-details-props div.props form .props-row-comment div.comment-container textarea {max-width: 100%; width: 400px;}
+body#edit-device div.device-details-props div.props form .props-row-comment div.comment-container span.left {float: left;width: 45%;text-align: right;line-height: 2em;height: auto;vertical-align: center;}
+body#edit-device div.device-details-props div.props form .props-row-comment div.comment-container span.right {float: right;width: 54%;text-align: left;line-height: 2em;height: auto;vertical-align: top;}
+
+
+
+body#add-device div#frame div#content {height: 100%; }
+html > body#add-device div#frame div#content {height: 100%;}
+
+body#add-device #device{margin: 20px 5px;}
+body#add-device .props {float: left;width: 98%;margin: 5px 1% 0px;}
+body#add-device div.button-row {clear: both;margin-top: 1em;padding-top: 5px;height: 2.1em;vertical-align: bottom;}
+
+body#add-device .props-row {float: left;width: 100%;padding: 5px 0px;border-bottom: 1px solid gray;height: 2.1em;}
+body#add-device div.props-row span.left {float: left;width: 45%;text-align: right;line-height: 2em;height: 2em;vertical-align: center;}
+body#add-device div.props-row span.right {float: right;width: 54%;text-align: left;line-height: 2em;height: 2em;vertical-align: top;}

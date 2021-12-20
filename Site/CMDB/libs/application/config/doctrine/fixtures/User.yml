@@ -1,0 +1,961 @@
+User:
+  User_3:
+    logon: jkelly
+    fname: Joe
+    lname: Kelly
+    password: 4ea0a39b8faea273e6038faf0d630f1dfce694e9
+    email: jkelly@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_4:
+    logon: bryken
+    fname: Bill
+    lname: Ryken
+    password: 2865b3da45c33e0260e9ecd6f288dd52f9f8e9c6
+    email: bryken@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_5:
+    logon: dblazek
+    fname: Dan
+    lname: Blazek
+    password: 8c6cac59bd2b0da585275eb44485da8f16791f09
+    email: dblazek@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_6:
+    logon: awuerch
+    fname: Art
+    lname: Wuerch
+    password: 1acb7a049f5e80f844feffbcb593aa3aa41a16b7
+    email: awuerch@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_7:
+    logon: tneal
+    fname: Ted
+    lname: Neal
+    password: 8d71f34ab22cc0750db7b86fd9801faadc040b1d
+    email: tneal@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_8:
+    logon: dmaker
+    fname: Don
+    lname: Maker
+    password: becb4a1fc55ca62316eb7d52f115c7ae8655d014
+    email: dmaker@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_9:
+    logon: hhunyh
+    fname: Huy
+    lname: Hunyh
+    password: 9ebf5ab4a55bd0abd66cc882fdaca75d33b62832
+    email: hhunyh@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_10:
+    logon: mmacdonald
+    fname: Michael
+    lname: Macdonald
+    password: 86d1ae96a32b88e20ff0077e369c5c689a8c8371
+    email: mmacdonald@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_11:
+    logon: psousa
+    fname: Philip
+    lname: Sousa
+    password: 26aa61b7299ef5013889c5e1ccd65c2e80a6ea69
+    email: psousa@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_12:
+    logon: bmccourt
+    fname: Bruce
+    lname: McCourt
+    password: 6b3f6c6987c886d4d389884eb6ccccd85d5913c9
+    email: bmccourt@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_13:
+    logon: kpomerleau
+    fname: Kevin
+    lname: Pomerleau
+    password: 59d956a08ddb42630dc96aa57c556815be346a81
+    email: kpomerleau@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_14:
+    logon: ssrivastava
+    fname: Sanjeev
+    lname: Srivastava
+    password: 1a9cec639cbb4e12a4e25702d2b838987d933e8c
+    email: ssrivastava@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_15:
+    logon: jreid
+    fname: Jody
+    lname: Reid
+    password: 7a2db24f0da05fd795af4c5e57b301e081a0f8fe
+    email: jreid@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_16:
+    logon: schalmers
+    fname: Sean
+    lname: Chalmers
+    password: 2e877d798d7b030e35a476eade1ca7abc1b00dc9
+    email: schalmers@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_17:
+    logon: mhunter
+    fname: Marcus
+    lname: Hunter
+    password: 69949cae7b48ba190ad3ec68243c93cb3c832d3d
+    email: mhunter@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_18:
+    logon: asalvatore
+    fname: Adam
+    lname: Salvatore
+    password: 68d23b31155264ee22977502075ee29bb597c50c
+    email: asalvatore@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_19:
+    logon: stiosavljevic
+    fname: Sasha
+    lname: Tiosavljevic
+    password: e7b12505ccd72a6581325f82dbecb79f70b71fa8
+    email: stiosavljevic@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_20:
+    logon: jszaban
+    fname: Janusz
+    lname: Szaban
+    password: 967575c23f51962be29de281158b6ff6c9d3a64a
+    email: jszaban@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_21:
+    logon: rkijak
+    fname: Robert
+    lname: Kijak
+    password: 35d3da8a6099fc02156ea53c01e8da9ebf39f6f2
+    email: rkijak@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_22:
+    logon: clacatus
+    fname: Cristian
+    lname: Lacatus
+    password: cfa16641c97e6971625786506b6eb7a058dcc72e
+    email: clacatus@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_23:
+    logon: asahu
+    fname: Arbind
+    lname: Sahu
+    password: b1bca000fc4bd051e9f2e9d57a8f395e82f8d0d6
+    email: asahu@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_24:
+    logon: jchan
+    fname: Jenkins
+    lname: Chan
+    password: 224b024ab400f99d794b2d2b03efbbf3559cb3ac
+    email: jenkinschan@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_25:
+    logon: phavers
+    fname: Paula
+    lname: Havers
+    password: 46ed092e1992fec345d9ce62850f4d37e2e08238
+    email: phavers@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_26:
+    logon: clongman
+    fname: Cory
+    lname: Longman
+    password: 27fdf066a2f0e222ee833f305b6dc7a51ea3fefb
+    email: clongman@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_27:
+    logon: rshows
+    fname: Ryan
+    lname: Shows
+    password: a1284f916e87c398741cdad567dccfb9d688a175
+    email: rshows@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_28:
+    logon: rblake
+    fname: Robert
+    lname: Blake
+    password: 7f7e56a3f44831fc6fdb065abdff8dfb1d1d4723
+    email: rblake@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_29:
+    logon: mallen
+    fname: Michael
+    lname: Allen
+    password: eca9ffd5cfab2eaf74f052d3d957286d3c01d62f
+    email: mallen@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_30:
+    logon: strofimov
+    fname: Silviu
+    lname: Trofimov
+    password: 02466a398f337f2433cc81ca97c95d8ed9226c30
+    email: strofimov@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_31:
+    logon: dtamblyn
+    fname: Dan
+    lname: Tamblyn
+    password: af9d29f41f20a524cf73c02fddcf954240043383
+    email: dtamblyn@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_32:
+    logon: jgee
+    fname: Jeffrey
+    lname: Gee
+    password: 6ff104ace5d9ac7ca6a8cab9b84c0c9660d3a609
+    email: jgee@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_33:
+    logon: staylor
+    fname: Steve
+    lname: Taylor
+    password: 2618d8eeb38db5666975df4fd945cc4512e3f384
+    email: staylor@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_34:
+    logon: smong
+    fname: Selby
+    lname: Mong
+    password: 6f5be8986e37f73c4fbd2375737495b2344f7164
+    email: smong@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_35:
+    logon: rwad
+    fname: Ruta
+    lname: Wad
+    password: b77737c21677248c76b548f2b52ad724c428d9af
+    email: rwad@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_36:
+    logon: fsheehan
+    fname: Frank
+    lname: Sheehan
+    password: 16812305367d629e44d8eb9886084a18bf00d5bc
+    email: fsheehan@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_37:
+    logon: alee
+    fname: Alsop
+    lname: Lee
+    password: d14c31299facb10bc908e1762f35f6abb5a2888a
+    email: alee@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_38:
+    logon: lalbu
+    fname: Liviu
+    lname: Albu
+    password: 3bb8f3da66957bb9f6edb0355ae9393dc749472d
+    email: lalbu@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_39:
+    logon: cgalli
+    fname: Carla
+    lname: Galli
+    password: 7d7ffd8848f144d12828f7a86aaefd9ab1de9357
+    email: cgalli@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_40:
+    logon: bvickery
+    fname: Bill
+    lname: Vickery
+    password: af895d7fca4e077475ac1ea0fbf73e7174bc0aa1
+    email: bvickery@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_41:
+    logon: salbu
+    fname: Sabina
+    lname: Albu
+    password: d120731abc1fe1d270698710753b1625722a69b4
+    email: salbu@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_42:
+    logon: tmichaud
+    fname: Troy
+    lname: Michaud
+    password: ba1fb4d0626c93fe2ff29b9b44a874a4547d7772
+    email: tmichaud@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_43:
+    logon: sjoshi
+    fname: Shrihari
+    lname: Joshi
+    password: 42fc5e393ebf04c00a944e9d8b8bfcecffa5edba
+    email: sjoshi@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_44:
+    logon: dpereira
+    fname: Denzil
+    lname: Pereira
+    password: 615bd9fdc9e4ec7c8cba5488ead472122dc6cbc1
+    email: dpereira@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_45:
+    logon: smast
+    fname: Susan
+    lname: Mast
+    password: 73594b9c7d712dc590c00bab2a495b9f2296933c
+    email: smast@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_46:
+    logon: gfrappier
+    fname: Glenn
+    lname: Frappier
+    password: bc7c58a5c5ced6e344849ab1a37d709e5f80f55e
+    email: gfrappier@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_47:
+    logon: ssoilemetzidou
+    fname: Sophia
+    lname: Soilemetzidou
+    password: a7ad6cc3142f10569c37fd875cfbf5a0d0b8c2f8
+    email: ssoilemetzidou@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_48:
+    logon: laptekman
+    fname: Leon
+    lname: Aptekman
+    password: ac33abef354a7057d75dcb4f51983eb6a2fa59e5
+    email: laptekman@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_49:
+    logon: akrychev
+    fname: Anatoli
+    lname: Krychev
+    password: f34ad743a58addabe9dbf566521a39b4808f17fa
+    email: akrychev@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_50:
+    logon: hxin
+    fname: Helen
+    lname: Xin
+    password: 0cccc996e9f628e864081540ee0fc938b55ba1f8
+    email: hxin@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_51:
+    logon: pvandenende
+    fname: Paul
+    lname: 'Van Den Ende'
+    password: f1d3356d61391e0fa55c6e8aa4e7ecbf8a8989f7
+    email: pvandenende@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_52:
+    logon: mtan
+    fname: Mario
+    lname: Tan
+    password: fe9db60e23a06449b90b19d66b721708068089ad
+    email: mtan@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_53:
+    logon: dkoko
+    fname: Deinma
+    lname: Koko
+    password: 7b5f1ab98753119948af2ac93cd6da64072ac3ac
+    email: dkoko@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_54:
+    logon: rvidamo
+    fname: Richard
+    lname: Vidamo
+    password: 14c505e8225856444a0f324784efa0bd2a59aea9
+    email: rvidamo@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_55:
+    logon: kmeehan
+    fname: Kevin
+    lname: Meehan
+    password: 0b82e98f1bbb3fb7e23ed2c399455ae1a452a03f
+    email: kmeehan@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_56:
+    logon: kwynne
+    fname: Ken
+    lname: Wynne
+    password: 0b969d1f4f5173340b27863366e181e18b1dd117
+    email: kwynne@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_57:
+    logon: lrussell
+    fname: Leeann
+    lname: Russell
+    password: 7e008f0b32ce1c94912212dbef9eab2df7bc13b6
+    email: lrussell@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_58:
+    logon: jdasilva
+    fname: Joe
+    lname: 'Da Silva'
+    password: 5da4d52308f5256912bd0272f0872c04cc95f095
+    email: jdasilva@symcor.com
+    is_admin: '1'
+    change_password: '1'
+  User_59:
+    logon: jwall
+    fname: John
+    lname: Wall
+    password: df496d14b0fd6c40f2daca715f10b5f05ed92aab
+    email: jwall@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_60:
+    logon: tpimentel
+    fname: Trish
+    lname: Pimentel
+    password: 22d5618d793860750ebc3e4aeebc84ac1cf5213a
+    email: tpimentel@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_61:
+    logon: tbezchlibnyk
+    fname: Taras
+    lname: Bezchlibnyk
+    password: 4aa723bcfaef46109ef16f55cc6cf541298d59c3
+    email: tbezchlibnyk@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_62:
+    logon: phoare
+    fname: Phil
+    lname: Hoare
+    password: 13046ee482e33ace28682133f0f4407ee51bc7c0
+    email: phoare@symcor.com
+    is_admin: '0'
+    change_password: '1'
+  User_63:
+    logon: hbrown
+    fname: Hil
+    lname: Brown
+    password: 6d4821876a53d3c147b24e89efe8a464429c3d71
+    email: hbrown@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_64:
+    logon: hlawson
+    fname: Hilaire
+    lname: Lawson
+    password: 00a776e5c934c64c58ff07c095913551e8567cd4
+    email: hlawson@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_65:
+    logon: dwhite
+    fname: Derek
+    lname: White
+    password: 1b8aea73db9ed553413f6f974e18a14532e21be4
+    email: dwhite@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_66:
+    logon: ehsu
+    fname: Eugene
+    lname: Hsu
+    password: 8f865e0614fd1bad56d0132be9f6d4c5fe25eace
+    email: ehsu@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_67:
+    logon: cbarretto
+    fname: Craig
+    lname: Barretto
+    password: ac637926d2c6fd180040fb9de0e0027c5ccb9125
+    email: cbarretto@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_68:
+    logon: dkingma
+    fname: David
+    lname: Kingma
+    password: ac4a3b7be2c155ee281155207b283d0ca895cd2f
+    email: dkingma@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_69:
+    logon: jarmes
+    fname: Jeffrey
+    lname: Armes
+    password: e42457e6f703027e5e58c99e450c27f3fc280941
+    email: jarmes@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_70:
+    logon: kratnasabapathy
+    fname: Krishna
+    lname: Ratnasabapathy
+    password: 1a4d7d1531fc05a1f2b5956b345958cd420bd573
+    email: kratnasabapathy@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_71:
+    logon: ldegeer
+    fname: Lloyd
+    lname: DeGeer
+    password: 09862ff0a6e81237a1996ff7f647b2fef3de5208
+    email: ldegeer@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_72:
+    logon: mtesluk
+    fname: Matt
+    lname: Tesluk
+    password: db8ff19bf3134352a1f14464f2410f8da84fd030
+    email: mtesluk@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_73:
+    logon: nali
+    fname: Nigel
+    lname: Ali
+    password: b0efce0ca9b2cfe282396552659bd57502be4e34
+    email: nali@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_74:
+    logon: wlam
+    fname: Winfor
+    lname: Lam
+    password: a5fcd6c9529d08ba034e47dde1a75570e743a046
+    email: wlam@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_75:
+    logon: sajmeri
+    fname: Saurin
+    lname: Ajmeri
+    password: 0bb4bf70dd1afe72ace574010c2088e474e1d3c1
+    email: sajmeri@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_76:
+    logon: aleonzio
+    fname: Alison
+    lname: Leonzio
+    password: e172190ee463328a0685738ef549401f054d616c
+    email: aleonzio@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_77:
+    logon: areyes
+    fname: Alvaro
+    lname: Reyes
+    password: 461be516ef593734566c32cf54763b3660ce1779
+    email: areyes@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_78:
+    logon: bhalliwell
+    fname: Bill
+    lname: Halliwell
+    password: 54e70302b619ea93a154ffa8cb5e64f927cb35d0
+    email: bhalliwell@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_79:
+    logon: crondeau
+    fname: Christian
+    lname: Rondeau
+    password: e9098025199044b8cb83de463fb8e55ff3d6152c
+    email: crondeau@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_80:
+    logon: cbateman
+    fname: Corey
+    lname: Bateman
+    password: 4a2d731fc038c1de8a4debbe8b607bb5c310bfcc
+    email: cbateman@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_81:
+    logon: dlachance
+    fname: Dave
+    lname: LaChance
+    password: ecbe145837ce24ba8a56d46c2ece8fc169c18cdc
+    email: dlachance@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_82:
+    logon: dramsey
+    fname: David
+    lname: Ramsey
+    password: 71a591e09742548cb4b174d552bbc1ef88da8a3a
+    email: dramsey@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_83:
+    logon: dhamilton
+    fname: Delphine
+    lname: Hamilton
+    password: fa03bf37d7552ee6f46b7547a59d012c1493a5a0
+    email: dhamilton@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_84:
+    logon: gbach
+    fname: Gene
+    lname: Bach
+    password: f6706033513bb2f014daeaf95e093ad931f8b8b0
+    email: gbach@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_85:
+    logon: jguy
+    fname: James
+    lname: Guy
+    password: 14bda55e1841d54bdf84e526748aa7d9b7e7914d
+    email: jguy@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_86:
+    logon: joosting
+    fname: James
+    lname: Oosting
+    password: 83d55f9080faa606796eda5240ab3109adcd4e57
+    email: joosting@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_87:
+    logon: jscherer
+    fname: James
+    lname: Scherer
+    password: 95ba65acf0c795510ff2f1dc1de88dd34064efa5
+    email: jscherer@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_88:
+    logon: jreiner
+    fname: Janet
+    lname: Reiner
+    password: afd32a34c523796c2fb2edb6faa4f647af3ed9be
+    email: jreiner@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_89:
+    logon: jkowalsky
+    fname: Jeffrey
+    lname: Kowalsky
+    password: ccff4a59e2717d2d6626aa39e3173f3007bde948
+    email: jkowalsky@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_90:
+    logon: jszeto
+    fname: John
+    lname: Szeto
+    password: 8c7f2c09c72636056a1adf46c0f24005ff5f57c4
+    email: jszeto@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_91:
+    logon: jbodle
+    fname: Jonathan
+    lname: Bodle
+    password: c1ed70c09400f70421b1f7a0adfdfb30826b5fef
+    email: jbodle@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_92:
+    logon: kmcclellan
+    fname: Kelvin
+    lname: McClellan
+    password: dbcb761d3cc6b79cffaf0f1bb528e2d3b4e93fc4
+    email: kmcclellan@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_93:
+    logon: kbrown
+    fname: Kendal
+    lname: Brown
+    password: 11ccb76d10845aefff46ab4f480b1465074be426
+    email: kbrown@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_94:
+    logon: khicks
+    fname: Kenneth
+    lname: Hicks
+    password: 6d3f751023bc04266d4da2ff94804f4240839fe2
+    email: khicks@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_95:
+    logon: kwahed
+    fname: Khandaker
+    lname: Wahed
+    password: 8ca007877f9224dec858b719aad03bd0dfc4100f
+    email: kwahed@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_96:
+    logon: kcongram
+    fname: Kristie
+    lname: Congram
+    password: 7539c1224fb2571bb649db17ed631559a7b88fe6
+    email: kcongram@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_97:
+    logon: mmasdal
+    fname: Mark
+    lname: Masdal
+    password: e1c9e25369a8d4104c1505562becb17b0b2a5fb4
+    email: mmasdal@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_98:
+    logon: mbodiford
+    fname: Michael
+    lname: Bodiford
+    password: 5e91102b4e16bc38d1895f94af0edbb7761e4f8c
+    email: mbodiford@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_99:
+    logon: mbuchanan
+    fname: Michael
+    lname: Buchanan
+    password: 4b00176e393cda8672b65083a8ecadcc3c4a47af
+    email: mbuchanan@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_100:
+    logon: mrodger
+    fname: Miriam
+    lname: Rodger
+    password: 2c162fe2eea0f475aaeac1304976bfa103cceee9
+    email: mrodger@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_101:
+    logon: pclose
+    fname: Patrick
+    lname: Close
+    password: efb6dd4186d49a4a08c437859b5e06c4eccd1b36
+    email: pclose@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_102:
+    logon: ppeeler
+    fname: Patrick
+    lname: Peeler
+    password: 173a579ea7900fb1e2ab5195346f2d1701fffd3b
+    email: ppeeler@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_103:
+    logon: pwalters
+    fname: Patrick
+    lname: Walters
+    password: 7e3944c6e5d4ffd541a9ec726c2e5b9f0d0e45c7
+    email: pwalters@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_104:
+    logon: pangelo/
+    fname: Phillip
+    lname: Angelo/
+    password: 13ed73d5a8ffb6210bf45e17739ecbf671a9f686
+    email: pangelo/@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_105:
+    logon: pmah
+    fname: Phillip
+    lname: Mah
+    password: da441faeeb0523d643bd9dfed54727ce2e592fc7
+    email: pmah@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_106:
+    logon: plalonde
+    fname: Pierre
+    lname: Lalonde
+    password: 2b33ece6f5dd2d1664532ad722349be644f3f2c3
+    email: plalonde@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_107:
+    logon: qtaylor
+    fname: Quintin
+    lname: Taylor
+    password: 637de027e8221d497b3423ccd954c1432943c3fb
+    email: qtaylor@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_108:
+    logon: rday
+    fname: Ric
+    lname: Day
+    password: 1630bd9f176ff50b60b6ce198b80e4313dc9229e
+    email: rday@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_109:
+    logon: rlamore
+    fname: Roland
+    lname: LaMore
+    password: 67cea789d4c9c0aeb078105d81a3d9c6a98d1c36
+    email: rlamore@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_110:
+    logon: srusso
+    fname: Sharon
+    lname: Russo
+    password: 81237d5d22104680f4720707b973e36a5cafe0f0
+    email: srusso@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_111:
+    logon: smackenzie
+    fname: Shirley
+    lname: MacKenzie
+    password: 1adc112eb8a6b07573227c210a545a32a16d9300
+    email: smackenzie@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_112:
+    logon: ssarmiento
+    fname: Sonny
+    lname: Sarmiento
+    password: 316ac913cca8ae54c0d2609969d25206a5ed570a
+    email: ssarmiento@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_113:
+    logon: sseneviratne
+    fname: Sriyan
+    lname: Seneviratne
+    password: 4f97b67e80538c722e33a1f74c2cdde547c1b2fc
+    email: sseneviratne@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_114:
+    logon: sjackson
+    fname: Steve
+    lname: Jackson
+    password: 59d72232c949456727b4788c7df11ce419ec6c88
+    email: sjackson@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_115:
+    logon: tbell
+    fname: Tony
+    lname: Bell
+    password: 4f575027d9d51f9e4dd30adee0214e19fa65da51
+    email: tbell@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_116:
+    logon: dstewart
+    fname: Dennis
+    lname: Stewart
+    password: ee37895a324b13cd68a4fb4c8deedc0bc7999f7a
+    email: dstewart@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_117:
+    logon: bzacharias
+    fname: Brad
+    lname: Zacharias
+    password: 67c807ab064e9f8a430cc9ab1b0a7b4ec342228d
+    email: bzacharias@symcor.com
+    is_admin: 0
+    change_password: 1
+  User_118:
+    logon: jcuison
+    fname: Janice
+    lname: Cuison
+    password: e42f720c0636a04c57093c5631cf6b2fabfcf645
+    email: jcuison@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_119:
+    logon: kcongram
+    fname: Kristie
+    lname: Congram
+    password: 7539c1224fb2571bb649db17ed631559a7b88fe6
+    email: kcongram@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_120:
+    logon: rli
+    fname: Ruby
+    lname: Li
+    password: d3a53ea3f0d6ebbbf1eb8431093f132bc4577d93
+    email: rli@symcor.com
+    is_admin: 1
+    change_password: 1
+  User_121:
+    logon: rvidamo
+    fname: Richard
+    lname: Vidamo
+    password: 14c505e8225856444a0f324784efa0bd2a59aea9
+    email: rvidamo@symcor.com
+    is_admin: 0
+    change_password: 1
+  User_122:
+    logon: fisom
+    fname: Flora
+    lname: Isom
+    password: 988d90aa97281d4b497eda9b9b28a2353a009a38
+    email: fisom@symcor.com
+    is_admin: 1
+    change_password: 1

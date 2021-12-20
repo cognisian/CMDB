@@ -1,0 +1,25 @@
+OperationalArea:
+  OperationalArea_1:
+    code: 'PRD'
+    type: 'Production'
+  OperationalArea_2:
+    code: 'CRP'
+    type: 'Corporate'
+  OperationalArea_3:
+    code: 'BCP'
+    type: 'Backup Site'
+  OperationalArea_4:
+    code: 'CAT'
+    type: 'Client Acceptance'
+  OperationalArea_5:
+    code: 'UAT'
+    type: 'User Acceptance'
+  OperationalArea_6:
+    code: 'SIT'
+    type: 'Systems Integration'
+  OperationalArea_7:
+    code: 'DEV'
+    type: 'Development'
+  OperationalArea_8:
+    code: 'SMG'
+    type: 'Systems Management'

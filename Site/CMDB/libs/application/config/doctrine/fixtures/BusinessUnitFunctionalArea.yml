@@ -1,0 +1,103 @@
+BusinessUnitFunctionalArea:
+  BusinessUnitFunctionalArea_1_1:
+    BusinessUnit: BusinessUnit_1
+    FunctionalArea: FunctionalArea_1
+  BusinessUnitFunctionalArea_1_2:
+    BusinessUnit: BusinessUnit_1
+    FunctionalArea: FunctionalArea_2
+  BusinessUnitFunctionalArea_1_3:
+    BusinessUnit: BusinessUnit_1
+    FunctionalArea: FunctionalArea_3
+  BusinessUnitFunctionalArea_1_4:
+    BusinessUnit: BusinessUnit_1
+    FunctionalArea: FunctionalArea_4
+  BusinessUnitFunctionalArea_1_24:
+    BusinessUnit: BusinessUnit_1
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_2_5:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_5
+  BusinessUnitFunctionalArea_2_6:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_6
+  BusinessUnitFunctionalArea_2_7:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_7
+  BusinessUnitFunctionalArea_2_8:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_8
+  BusinessUnitFunctionalArea_2_9:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_9
+  BusinessUnitFunctionalArea_2_10:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_10
+  BusinessUnitFunctionalArea_2_11:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_11
+  BusinessUnitFunctionalArea_2_12:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_12
+  BusinessUnitFunctionalArea_2_24:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_2_27:
+    BusinessUnit: BusinessUnit_2
+    FunctionalArea: FunctionalArea_27
+  BusinessUnitFunctionalArea_3_13:
+    BusinessUnit: BusinessUnit_3
+    FunctionalArea: FunctionalArea_13
+  BusinessUnitFunctionalArea_3_14:
+    BusinessUnit: BusinessUnit_3
+    FunctionalArea: FunctionalArea_14
+  BusinessUnitFunctionalArea_3_15:
+    BusinessUnit: BusinessUnit_3
+    FunctionalArea: FunctionalArea_15
+  BusinessUnitFunctionalArea_3_24:
+    BusinessUnit: BusinessUnit_3
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_4_16:
+    BusinessUnit: BusinessUnit_4
+    FunctionalArea: FunctionalArea_16
+  BusinessUnitFunctionalArea_4_24:
+    BusinessUnit: BusinessUnit_4
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_5_17:
+    BusinessUnit: BusinessUnit_5
+    FunctionalArea: FunctionalArea_17
+  BusinessUnitFunctionalArea_5_18:
+    BusinessUnit: BusinessUnit_5
+    FunctionalArea: FunctionalArea_18
+  BusinessUnitFunctionalArea_5_19:
+    BusinessUnit: BusinessUnit_5
+    FunctionalArea: FunctionalArea_19
+  BusinessUnitFunctionalArea_5_24:
+    BusinessUnit: BusinessUnit_5
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_6_20:
+    BusinessUnit: BusinessUnit_6
+    FunctionalArea: FunctionalArea_20
+  BusinessUnitFunctionalArea_6_24:
+    BusinessUnit: BusinessUnit_6
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_7_21:
+    BusinessUnit: BusinessUnit_7
+    FunctionalArea: FunctionalArea_21
+  BusinessUnitFunctionalArea_7_22:
+    BusinessUnit: BusinessUnit_7
+    FunctionalArea: FunctionalArea_22
+  BusinessUnitFunctionalArea_7_24:
+    BusinessUnit: BusinessUnit_7
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_8_23:
+    BusinessUnit: BusinessUnit_8
+    FunctionalArea: FunctionalArea_23
+  BusinessUnitFunctionalArea_8_24:
+    BusinessUnit: BusinessUnit_8
+    FunctionalArea: FunctionalArea_24
+  BusinessUnitFunctionalArea_3_25:
+    BusinessUnit: BusinessUnit_3
+    FunctionalArea: FunctionalArea_25
+  BusinessUnitFunctionalArea_5_26:
+    BusinessUnit: BusinessUnit_5
+    FunctionalArea: FunctionalArea_26

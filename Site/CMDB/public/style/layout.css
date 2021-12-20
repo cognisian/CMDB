@@ -1,0 +1,123 @@
+/*
+ * This file establishes the layout/framework of how the page is layed out by the
+ * browser.
+ */
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	color: #000000;
+}
+
+body {
+	width: 100%;
+	background: white;
+	font-family: Utopia, Garamond, serif;
+	font-size: medium;
+	line-height: 1.7;
+	margin: 0px;
+}
+
+#frame {
+	overflow: hidden;
+	width: 100%;
+}
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+/* HEADER
+--------------------------------------------- */
+#topcontent {
+	/*float: left;*/
+	height: 136px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#banner {
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	height: 136px;
+	background: transparent url('../gfx/banner.png') repeat-x scroll left center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#logo {
+	float: right;
+	width: 230px;
+	height: 119px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../gfx/symcor_logo.png');
+	margin-top: 15px;
+}
+
+/* Hide from IE */
+html > body #logo {
+	background: url('../gfx/symcor_logo.png') no-repeat left center;
+}
+
+#subtitle {
+	float: left;
+	left: 5%;
+	height: 136px;
+	padding: 0px 5%;
+}
+
+/* MAIN
+--------------------------------------------- */
+#content {
+	/*float: left;*/
+	position: relative; /* To set as the containing/offset block */
+	_height: 550px; /* target IE <=6 */
+	width: 960px;
+/*	text-align: center; /* center for IE */
+}
+
+html > body #content {
+	min-height: 500px;
+	text-align: left;
+	margin: 0px auto;
+}
+
+#left-content {
+	float: left;
+	height: auto;
+}
+
+#right-content {
+	float: right;
+	width: 25%;
+	height: 100%;
+	font-size: 90%;
+}
+
+/* FOOTER
+--------------------------------------------- */
+#footer {
+	clear: both;
+	float: none;
+	width: 100%;
+	color: black;
+	border-top: 3px solid black;
+	border-bottom: 1px solid black;
+}
+
+#footer p {
+	color: #689E9E;
+	font-weight: bold;
+	font-size: 90%;
+	text-align: center;
+	line-height: 100%;
+	padding: 5px;
+}

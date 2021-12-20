@@ -1,0 +1,41 @@
+DeviceType:
+  DeviceType_1:
+	type: Desktop
+  DeviceType_2:
+	type: Firewall
+  DeviceType_3:
+	type: Laptop
+  DeviceType_4:
+	type: Printer
+  DeviceType_5:
+	type: Router
+  DeviceType_6:
+	type: Server
+  DeviceType_7:
+	type: Switch
+  DeviceType_8:
+	type: Scanner
+  DeviceType_9:
+	type: Sorter
+  DeviceType_10:
+	type: Encoder
+  DeviceType_11:
+	type: Camera
+  DeviceType_12:
+	type: Antenna
+  DeviceType_12:
+	type: Storage
+  DeviceType_13:
+	type: ILOM
+  DeviceType_14:
+	type: Inserter
+  DeviceType_15:
+	type: 'Tape Library'
+  DeviceType_16:
+	type: 'Clock'
+  DeviceType_17:
+	type: 'Print Cutter'
+  DeviceType_18:
+	type: 'Print Controller'
+  DeviceType_19:
+	type: 'Data Collector'

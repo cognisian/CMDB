@@ -1,0 +1,75 @@
+FunctionalArea:
+FunctionalArea_1:
+	name: 'Epresentment'
+FunctionalArea_2:
+	name: 'QManager'
+FunctionalArea_3:
+	name: 'Communicator'
+FunctionalArea_4:
+	name: 'Proof'
+FunctionalArea_5:
+	name: 'Storage'
+FunctionalArea_6:
+	name: 'Windows'
+FunctionalArea_7:
+	name: 'Unix'
+FunctionalArea_8:
+	name: 'Desktop'
+FunctionalArea_9:
+	name: 'BAM'
+FunctionalArea_10:
+	name: 'Network'
+FunctionalArea_11:
+	name: 'IT Operations'
+FunctionalArea_12:
+	name: 'Security'
+FunctionalArea_13:
+	name: 'Source Capture'
+FunctionalArea_14:
+	name: 'Gateway'
+FunctionalArea_15:
+	name: 'Capture'
+FunctionalArea_16:
+	name: 'Exceptions'
+FunctionalArea_17:
+	name: 'Retail Lockbox'
+FunctionalArea_18:
+	name: 'Wholesale Lockbox'
+FunctionalArea_19:
+	name: 'Post Capture'
+FunctionalArea_20:
+	name: 'QA'
+FunctionalArea_21:
+	name: 'VCS'
+FunctionalArea_22:
+	name: 'Database'
+FunctionalArea_23:
+	name: 'Management/Support'
+FunctionalArea_24:
+	name: 'Unknown'
+FunctionalArea_25:
+	name: 'ATM'
+FunctionalArea_26:
+	name: 'Web and Image Services'
+FunctionalArea_27:
+	name: 'Mainframe'
+FunctionalArea_28:
+	name: 'Archive'
+FunctionalArea_29:
+	name: 'SEBO'
+FunctionalArea_30:
+	name: 'SDX'
+FunctionalArea_31:
+	name: 'Grid'
+FunctionalArea_32:
+	name: 'FOA'
+FunctionalArea_33:
+	name: 'CDS'
+FunctionalArea_34:
+	name: 'Corporate Apps'
+FunctionalArea_35:
+	name: 'CTO'
+FunctionalArea_36:
+	name: 'Branch Image Capture'
+FunctionalArea_37:
+	name: 'STI'

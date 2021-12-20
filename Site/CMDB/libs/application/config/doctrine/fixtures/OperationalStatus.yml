@@ -1,0 +1,9 @@
+OperationalStatus:
+  OperationalStatus_1:
+    status: 'Operational'
+  OperationalStatus_2:
+    status: 'Unreachable'
+  OperationalStatus_3:
+    status: 'Maintenance'
+  OperationalStatus_4:
+    status: 'Decomissioned'

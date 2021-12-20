@@ -1,0 +1,788 @@
+DeviceOwner:
+  tableName: DeviceOwner
+  columns:
+    device_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+    owner_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+User:
+  tableName: User
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    logon:
+      type: string(16)
+      notnull: true
+    fname:
+      type: string(30)
+      notnull: true
+    lname:
+      type: string(30)
+      notnull: true
+    password:
+      type: string(40)
+      fixed: true
+      notnull: true
+    email:
+      type: string(60)
+      notnull: true
+    is_admin:
+      type: integer(1)
+      unsigned: 1
+      notnull: true
+      default: 0
+    change_password:
+      type: integer(1)
+      unsigned: 1
+      notnull: 1
+      default: 1
+    logon_enabled:
+      type: integer(1)
+      unsigned: 1
+      default: 0
+  relations:
+    FunctionalArea:
+      class: FunctionalArea
+      local: user_id
+      foreign: functional_area_id
+      refClass: UserFunctionalArea
+    Owns:
+      class: Device
+      local: owner_id
+      foreign: device_id
+      refClass: DeviceOwner
+  indexes:
+    User:
+      fields: [logon, logon_enabled, password, is_admin, change_password]
+FunctionalArea:
+  tableName: FunctionalArea
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    name:
+      type: string(40)
+      notnull: true
+  relations:
+    User:
+      class: User
+      local: functional_area_id
+      foreign: user_id
+      refClass: UserFunctionalArea
+    BusinessUnit:
+      class: BusinessUnit
+      local: functional_area_id
+      foreign: business_unit_id
+      refClass: BusinessUnitFunctionalArea
+  indexes:
+    FuncAreaName:
+      fields: [name]
+BusinessUnit:
+  tableName: BusinessUnit
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    name:
+      type: string(48)
+      notnull: true
+  relations:
+    FunctionalArea:
+      class: FunctionalArea
+      local: business_unit_id
+      foreign: functional_area_id
+      refClass: BusinessUnitFunctionalArea
+  indexes:
+    BusUnitName:
+      fields: [name]
+UserFunctionalArea:
+  tableName: UserFunctionalArea
+  columns:
+    user_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+  relations:
+    User:
+      local: user_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+BusinessUnitFunctionalArea:
+  tableName: BusinessUnitFunctionalArea
+  columns:
+    business_unit_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+  relations:
+    BusinessUnit:
+      local: business_unit_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+OperationalArea:
+  tableName: OperationalArea
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    code:
+      type: string(3)
+      fixed: true
+      notnull: true
+    type:
+      type: string(24)
+      default: Server
+      notnull: true
+  indexes:
+    OpArea:
+      fields: [code, type]
+OperationalStatus:
+  tableName: OperationalStatus
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    status:
+      type: string(16)
+      notnull: true
+  indexes:
+    OpStatus:
+      fields: [status]
+Site:
+  tableName: Site
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    code:
+      type: string(7)
+      fixed: true
+      notnull: true
+    name:
+      type: string(255)
+      notnull: true
+  relations:
+    Locations:
+      class: Location
+      local: id
+      foreign: site_id
+      type: many
+  indexes:
+    Site:
+      fields: [code, name]
+Location:
+  tableName: Location
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    floor:
+      type: string(3)
+      fixed: true
+    room:
+      type: string(32)
+    row:
+      type: integer(1)
+      unsigned: true
+    cabinet:
+      type: string(16)
+    jack:
+      type: string(16)
+    site_id:
+      type: integer(4)
+      unsigned: 1
+  actAs: [Geographical]
+  relations:
+    Site:
+      local: site_id
+      foreign: id
+      type: one
+  indexes:
+    Location:
+      fields: [floor, room, row, cabinet]
+DeviceType:
+  tableName: DeviceType
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    type:
+      type: string(24)
+      default: Server
+      notnull: true
+  relations:
+    Device:
+      class: Device
+      local: id
+      foreign: device_type_id
+      type: many
+  indexes:
+    DeviceType:
+      fields: [type]
+Service:
+  tableName: Service
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    name:
+      type: string(32)
+      notnull: true
+    port:
+      type: integer(2)
+      unsigned: true
+      notnull: true
+      default: '0'
+    protocol:
+      type: string(3)
+      notnull: true
+      fixed: true
+      default: 'tcp'
+  indexes:
+    ServiceName:
+      fields: [name, protocol, port]
+  indexes:
+    ServicePort:
+      fields: [port, name, protocol]
+Device:
+  tableName: Device
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    asset_tag:
+      type: integer(3)
+      unsigned: 1
+    vendor: string(255)
+    manufacturer: string(255)
+    model: string(255)
+    serial_num: string(255)
+    support_type:
+      type: string(8)
+      default: SYMCOR
+    support_sla: time(25)
+    support_end: date(25)
+    warranty_expire: date(25)
+    maintenance_vendor: string(255)
+    maintenance_expire: date(25)
+    purchase: date(25)
+    install: date(25)
+    replacement: date(25)
+    end_life: date(25)
+    device_type_id:
+      type: integer(4)
+      unsigned: 1
+    location_id:
+      type: integer(4)
+      unsigned: 1
+    op_area_id:
+      type: integer(4)
+      unsigned: 1
+    op_status_id:
+      type: integer(4)
+      unsigned: 1
+    application_area_id:
+      type: integer(4)
+      unsigned: 1
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+      updated:
+        name: updated
+        type: timestamp
+        format: Y-m-d H:i:s
+  relations:
+    Location:
+      local: location_id
+      foreign: id
+      type: one
+    Owner:
+      class: User
+      local: device_id
+      foreign: owner_id
+      refClass: DeviceOwner
+    DeviceType:
+      local: device_type_id
+      foreign: id
+      type: one
+    OpArea:
+      class: OperationalArea
+      local: op_area_id
+      foreign: id
+      type: one
+    OpStatus:
+      class: OperationalStatus
+      local: op_status_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+    ApplicationArea:
+      class: FunctionalArea
+      local: application_area_id
+      foreign: id
+      type: one
+    SystemProperty:
+      local: id
+      foreign: device_id
+      type: many
+    NetworkProperty:
+      local: id
+      foreign: device_id
+      type: many
+    ServiceProperty:
+      local: id
+      foreign: device_id
+      type: many
+    SecurityProperty:
+      local: id
+      foreign: device_id
+      type: many
+    Comments:
+      class: DeviceComment
+      local: id
+      foreign: device_id
+      type: many
+    ParentDevice:
+      class: Device
+      local: from_device_id
+      foreign: to_device_id
+      refClass: DeviceDependency
+      foreignAlias: ChildDevice
+  indexes:
+    Device:
+      fields: [name]
+    Asset:
+      fields: [asset_tag]
+DeviceDependency:
+  tableName: DeviceDependency
+  columns:
+    from_device_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+    to_device_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+DeviceComment:
+  tableName: DeviceComment
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    comment:
+      type: string
+      notnull: true
+    device_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+    Searchable:
+      fields: [comment]
+SystemProperty:
+  tableName: SystemProperty
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    type:
+      type: string(8)
+      default: PHYSICAL
+      notnull: true
+    firmware_version: string(10)
+    os: string(32)
+    os_version: string(10)
+    os_patch_version: string(10)
+    num_cpu:
+      type: decimal(4)
+      scale: false
+    cpu_type: string(32)
+    ram: string(6)
+    internal_disks:
+      type: integer(1)
+      unsigned: 1
+    internal_storage: string(8)
+    device_id:
+      type: integer(4)
+      unsigned: 1
+      notnull: true
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+      updated:
+        name: updated
+        type: timestamp
+        format: Y-m-d H:i:s
+  relations:
+    Device:
+      local: device_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+    Comments:
+      class: SystemComment
+      local: id
+      foreign: system_prop_id
+      type: many
+SystemComment:
+  tableName: SystemComment
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    comment:
+      type: string
+      notnull: true
+    system_prop_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+    Searchable:
+      fields: [comment]
+NetworkProperty:
+  tableName: NetworkProperty
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: truelocation_
+      autoincrement: true
+    ip_addr:
+      type: integer(4)
+      unsigned: 1
+      default: '0'
+      notnull: true
+    mac:
+      type: string(17)
+      fixed: true
+    nic:
+      type: string(32)
+      default: NIC1
+      notnull: true
+    conn_blade:
+      type: integer(2)
+      unsigned: 1
+    conn_port:
+      type: integer(2)
+      unsigned: 1
+    conn_vlan:
+      type: integer(4)
+      unsigned: 1
+    conn_speed:
+      type: integer(2)
+      unsigned: 1
+    conn_medium:
+      type: string(24)
+    duplex:
+      type: string(2)
+      fixed: true
+    nic_alias:
+      type: string(64)
+    description:
+      type: string(255)
+    device_id:
+      type: integer(4)
+      unsigned: 1
+      notnull: true
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+      notnull: true
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+      updated:
+        name: updated
+        type: timestamp
+        format: Y-m-d H:i:s
+  relations:
+    Device:
+      local: device_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+    Comments:
+      class: NetworkComment
+      local: id
+      foreign: network_prop_id
+      type: many
+    ParentNetwork:
+      class: NetworkProperty
+      local: from_net_prop_id
+      foreign: to_net_prop_id
+      refClass: NetworkDependency
+      foreignAlias: ChildNetwork
+  indexes:
+    Address:
+      fields: [ip_addr, nic, mac]
+    MAC:
+      fields: [mac, nic, ip_addr]
+NetworkDependency:
+  tableName: NetworkDependency
+  columns:
+    from_net_prop_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+    to_net_prop_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+NetworkComment:
+  tableName: NetworkComment
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    comment:
+      type: string
+      notnull: true
+    network_prop_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+    Searchable:
+      fields: [comment]
+ServiceProperty:
+  tableName: ServiceProperty
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      autoincrement: true
+      notnull: true
+      primary: true
+    service_id:
+      type: integer(4)
+      unsigned: 1
+      notnull: true
+    device_id:
+      type: integer(4)
+      unsigned: 1
+      notnull: true
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+      updated:
+        name: updated
+        type: timestamp
+        format: Y-m-d H:i:s
+  relations:
+    Device:
+      local: device_id
+      foreign: id
+      type: one
+    Service:
+      local: service_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+    DependsOn:
+      class: ServiceProperty
+      local: from_service_prop_id
+      foreign: to_service_prop_id
+      refClass: ServiceDependency
+      foreignAlias: DependentOn
+    Comments:
+      class: ServiceComment
+      local: id
+      foreign: service_prop_id
+      type: many
+ServiceDependency:
+  tableName: ServiceDependency
+  columns:
+    from_service_prop_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+    to_service_prop_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+ServiceComment:
+  tableName: ServiceComment
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    comment:
+      type: string
+      notnull: true
+    service_prop_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+    Searchable:
+      fields: [comment]
+SecurityProperty:
+  tableName: SecurityProperty
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    zone:
+      type: string(16)
+      default: SYMCOR
+      notnull: true
+    device_id:
+      type: integer(4)
+      unsigned: 1
+    functional_area_id:
+      type: integer(4)
+      unsigned: 1
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+      updated:
+        name: updated
+        type: timestamp
+        format: Y-m-d H:i:s
+  relations:
+    Device:
+      local: device_id
+      foreign: id
+      type: one
+    FunctionalArea:
+      local: functional_area_id
+      foreign: id
+      type: one
+    Comments:
+      class: SecurityComment
+      local: id
+      foreign: security_prop_id
+      type: many
+SecurityComment:
+  tableName: SecurityComment
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+      autoincrement: true
+    comment:
+      type: string
+      notnull: true
+    security_prop_id:
+      type: integer(4)
+      unsigned: 1
+      primary: true
+  actAs:
+    Timestampable:
+      created:
+        name: created
+        type: timestamp
+        format: Y-m-d H:i:s
+    Searchable:
+      fields: [comment]
