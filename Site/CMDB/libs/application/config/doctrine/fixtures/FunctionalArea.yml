@@ -1,75 +1,75 @@
 FunctionalArea:
 FunctionalArea_1:
-	name: 'Epresentment'
+	name: 'FA_1'
 FunctionalArea_2:
-	name: 'QManager'
+	name: 'FA_2'
 FunctionalArea_3:
-	name: 'Communicator'
+	name: 'FA_3'
 FunctionalArea_4:
-	name: 'Proof'
+	name: 'FA_4'
 FunctionalArea_5:
-	name: 'Storage'
+	name: 'FA_5'
 FunctionalArea_6:
-	name: 'Windows'
+	name: 'FA_6'
 FunctionalArea_7:
-	name: 'Unix'
+	name: 'FA_7'
 FunctionalArea_8:
-	name: 'Desktop'
+	name: 'FA_8'
 FunctionalArea_9:
-	name: 'BAM'
+	name: 'FA_9'
 FunctionalArea_10:
-	name: 'Network'
+	name: 'FA_10'
 FunctionalArea_11:
-	name: 'IT Operations'
+	name: 'FA_11'
 FunctionalArea_12:
-	name: 'Security'
+	name: 'FA_12'
 FunctionalArea_13:
-	name: 'Source Capture'
+	name: 'FA_13'
 FunctionalArea_14:
-	name: 'Gateway'
+	name: 'FA_14'
 FunctionalArea_15:
-	name: 'Capture'
+	name: 'FA_15'
 FunctionalArea_16:
-	name: 'Exceptions'
+	name: 'FA_16'
 FunctionalArea_17:
-	name: 'Retail Lockbox'
+	name: 'FA_17'
 FunctionalArea_18:
-	name: 'Wholesale Lockbox'
+	name: 'FA_18'
 FunctionalArea_19:
-	name: 'Post Capture'
+	name: 'FA_19'
 FunctionalArea_20:
-	name: 'QA'
+	name: 'FA_20'
 FunctionalArea_21:
-	name: 'VCS'
+	name: 'FA_21'
 FunctionalArea_22:
-	name: 'Database'
+	name: 'FA_22'
 FunctionalArea_23:
-	name: 'Management/Support'
+	name: 'FA_23'
 FunctionalArea_24:
-	name: 'Unknown'
+	name: 'FA_24'
 FunctionalArea_25:
-	name: 'ATM'
+	name: 'FA_25'
 FunctionalArea_26:
-	name: 'Web and Image Services'
+	name: 'FA_26'
 FunctionalArea_27:
-	name: 'Mainframe'
+	name: 'FA_27'
 FunctionalArea_28:
-	name: 'Archive'
+	name: 'FA_28'
 FunctionalArea_29:
-	name: 'SEBO'
+	name: 'FA_29'
 FunctionalArea_30:
-	name: 'SDX'
+	name: 'FA_30'
 FunctionalArea_31:
-	name: 'Grid'
+	name: 'FA_31'
 FunctionalArea_32:
-	name: 'FOA'
+	name: 'FA_31'
 FunctionalArea_33:
-	name: 'CDS'
+	name: 'FA_33'
 FunctionalArea_34:
-	name: 'Corporate Apps'
+	name: 'FA_34'
 FunctionalArea_35:
-	name: 'CTO'
+	name: 'FA_35'
 FunctionalArea_36:
-	name: 'Branch Image Capture'
+	name: 'FA_36'
 FunctionalArea_37:
-	name: 'STI'
+	name: 'FA_37'

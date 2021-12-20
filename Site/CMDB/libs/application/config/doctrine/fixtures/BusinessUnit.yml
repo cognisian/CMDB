@@ -1,17 +1,17 @@
 BusinessUnit:
   BusinessUnit_1:
-    name: 'Integrated Statement Solutions'
+    name: 'BU_1'
   BusinessUnit_2:
-    name: 'Computer and Network Services'
+    name: 'BU_2'
   BusinessUnit_3:
-    name: 'Image Delivery Services'
+    name: 'BU_3'
   BusinessUnit_4:
-    name: 'Cash Management Services'
+    name: 'BU_4'
   BusinessUnit_5:
-    name: 'Canadian Remittance'
+    name: 'BU_5'
   BusinessUnit_6:
-    name: 'QA and Testing'
+    name: 'BU_6'
   BusinessUnit_7:
-    name: 'Corporate and Collaborative Applications'
+    name: 'BU_7'
   BusinessUnit_8:
-    name: 'Enterprise Delivery Support Services'
+    name: 'BU_8'

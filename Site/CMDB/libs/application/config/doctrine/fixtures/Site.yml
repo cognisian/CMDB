@@ -1,160 +1,31 @@
 Site:
   Site_1:
-    code: ca3
-    name: 'ATB Shaw 630 3rd Ave SW., Calgary'
+    code: 'st_1'
+    name: 'Site_1'
   Site_2:
-    code: cglm
-    name: '2000 South Finley Rd., Chicago'
+    code: 'st_2'
+    name: 'Site_2'
   Site_3:
-    code: cgwm
-    name: '311 West Monroe St. 8th Fl., Chicago'
+    code: 'st_3'
+    name: 'Site_3'
   Site_4:
-    code: chex
-    name: '2200 Executive St., Charlotte'
+    code: 'st_4'
+    name: 'Site_4'
   Site_5:
-    code: chwp
-    name: '2701 Westport Rd., Charlotte'
+    code: 'st_5'
+    name: 'Site_5'
   Site_6:
-    code: clc2
-    name: '1216 10th Ave. SW, Calgary'
+    code: 'st_6'
+    name: 'Site_6'
   Site_7:
-    code: clc3
-    name: '3663 - 63rd Ave. NE, Calgary'
+    code: 'st_7'
+    name: 'Site_7'
   Site_8:
-    code: clww
-    name: 'Westwinds, Calgary'
+    code: 'st_8'
+    name: 'Site_8'
   Site_9:
-    code: cocm
-    name: 'Ceridian 675 Cochrane Dr., Markham'
+    code: 'st_9'
+    name: 'Site_9'
   Site_10:
-    code: cpo
-    name: 'TDCT Lan Rm 21, College Park, Toronto'
-  Site_11:
-    code: edm
-    name: '9888 Jasper Ave., Edmonton'
-  Site_12:
-    code: gar
-    name: ' Ceridian, 125 Garry St., Winnipeg'
-  Site_13:
-    code: gcc
-    name: 'RBC 75 Southgate 1 Fl, Guelph'
-  Site_14:
-    code: gou
-    name: 'BNS 100 Gough Rd., Host Rm, Markham'
-  Site_15:
-    code: hadk
-    name: '5251 Duke St., Halifac'
-  Site_16:
-    code: hagf
-    name: '1580 Grafton St., Halifax'
-  Site_17:
-    code: lasf
-    name: '350 S. Figueroa St., Suite 215, Los Angeles'
-  Site_18:
-    code: lbc
-    name: 'LBC 275 Viger E., Montreal'
-  Site_19:
-    code: lom
-    name: 'Lombard LAN Room'
-  Site_20:
-    code: mat
-    name: 'CUCO 2810 Matheson Rd. E., LAN Rm, Mississauga'
-  Site_21:
-    code: mir2
-    name: '2 Robert Speck Pkw., Mississauga'
-  Site_22:
-    code: mirs
-    name: '1 Robert Speck Pkw., Mississauga'
-  Site_23:
-    code: mita
-    name: '1625 Tech Ave., Mississauga'
-  Site_24:
-    code: mo2
-    name: 'Bridge LAN Room'
-  Site_25:
-    code: mtbr
-    name: '650 Bridge St., Montreal'
-  Site_26:
-    code: mttp
-    name: '4010 Tupper St., Montreal'
-  Site_27:
-    code: orha
-    name: '6435 Hazeltine National Dr., Orlando'
-  Site_28:
-    code: pho
-    name: 'LAN Room, Atlanta'
-  Site_29:
-    code: scc
-    name: 'BMO SCC 4100 Gordon-Baker Rd., Scarborough'
-  Site_30:
-    code: soc
-    name: 'TDCT SOC 740 Progress Ave., Scarborough'
-  Site_31:
-    code: to1p
-    name: '1 Prince Andrew Ct., Toronto'
-  Site_32:
-    code: to4p
-    name: '4 Prince Andrew Ct., Toronto'
-  Site_33:
-    code: to8p
-    name: '8 Prince Andrew Ct., Toronto'
-  Site_34:
-    code: tofr
-    name: '325 Front St., Toronto'
-  Site_35:
-    code: tofr2
-    name: '320 Front St., Toronto'
-  Site_36:
-    code: toks
-    name: '370 King St., Toronto'
-  Site_37:
-    code: vne5
-    name: '111 East 5th Ave. E., Vancouver'
-  Site_38:
-    code: wcc
-    name: 'BMO WCC 245 Consumers Rd., LAN Rm, North York'
-  Site_39:
-    code: wpfo
-    name: '195 Fort St., Winnipeg'
-  Site_40:
-    code: 'tn-nsrd'
-    name: '41 Rachel Dr., Nashville'
-  Site_41:
-    code: 'ga-stsc'
-    name: '100 Southcrest Dr., Stockbridge'
-  Site_42:
-    code: 'md-gbsa'
-    name: '100 Stewart Ave., Glen Burnie'
-  Site_43:
-    code: 'nj-rdrt'
-    name: '302 Route 17, Rutherford'
-  Site_44:
-    code: 'tn-mebp'
-    name: '2842 Business Park Dr., Memphis'
-  Site_45:
-    code: 'tx-dlhr'
-    name: '12720 Hillcresat Rd., Dallas'
-  Site_46:
-    code: 'atpp'
-    name: '1669 Phoenix Parkway, Atlanta'
-  Site_47:
-    code: 'fl-mina'
-    name: '3737 Northwest 87th Ave., Miami'
-  Site_48:
-    code: 'fl-orc1'
-    name: '7455 Chancellor Dr., Orlando'
-  Site_49:
-    code: 'fl-orc2'
-    name: '7455 Chancellor Dr., Orlando'
-  Site_50:
-    code: 'fl-orpr'
-    name: '2290 Premier Row, Orlando'
-  Site_51:
-    code: 'va-alea'
-    name: '5380 C Eisenhower Ave., Durham'
-  Site_52:
-    code: 'va-rhpr'
-    name: '7818 Parham Rd., Richmond'
-  Site_53:
-    code: 'tn-kxmp'
-    name: '7005 Middlebrook Pike, Knoxville'
+    code: 'st10'
+    name: 'Site_10'
